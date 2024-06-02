@@ -9,12 +9,10 @@
             margin: 0;
             padding: 0;
             background-color: #3a3a3a; /* Consistent dark grey background */
-            display: flex; /* Ensuring proper layout */
         }
         .navbar {
             background-color: #1a1a1a;
             overflow: hidden;
-            width: 100%; /* Ensures the navbar spans the full width */
         }
         .navbar a {
             float: left;
@@ -28,24 +26,26 @@
             background-color: #ddd;
             color: black;
         }
-        .sidebar {
-            width: 33%; /* Sidebar takes up one-third of the screen width */
-            background-color: #2d2d2d; /* Dark background for sidebar */
+        .container {
             padding: 20px;
             color: white;
+            display: flex; /* Use flexbox for layout */
         }
-        .content {
-            flex-grow: 1; /* Fill the rest of the space */
-            padding: 20px;
-            color: white;
+        .aberrations-list {
+            width: 200px; /* Set a fixed width for the list */
+            background-color: #2d2d2d;
+            padding: 10px;
+            margin-right: 20px; /* Add space between the list and any other content */
         }
         ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
         li {
             padding: 8px;
             margin: 5px 0;
+            border: none;
         }
         a {
             color: #9c9c9c; /* Light grey links for readability */
@@ -64,20 +64,21 @@
         <a href="research.html">Research</a>
         <a href="contact.html">Contact</a>
     </div>
-    <div class="sidebar">
-        <h1>Aberration Index</h1>
-        <ul>
-            <!-- Generate list of ABRs -->
-            <!-- Each item is a placeholder link -->
-            <li><a href="ABR001.html">ABR-001</a></li>
-            <li><a href="ABR002.html">ABR-002</a></li>
-            <li><a href="ABR003.html">ABR-003</a></li>
-            <!-- Continue listing up to ABR50 -->
-            <li><a href="ABR050.html">ABR-050</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <!-- Placeholder for additional content if needed -->
+
+    <div class="container">
+        <div class="aberrations-list">
+            <h1>Aberration Index</h1>
+            <ul>
+                <!-- Generate list of ABRs -->
+                <!-- Each item is a placeholder link -->
+                <li><a href="ABR001.html">ABR-001</a></li>
+                <li><a href="ABR002.html">ABR-002</a></li>
+                <li><a href="ABR003.html">ABR-003</a></li>
+                <!-- Continue listing up to ABR50 -->
+                <li><a href="ABR050.html">ABR-050</a></li>
+            </ul>
+        </div>
+        <!-- Optional: add other content here -->
     </div>
 </body>
 </html>
