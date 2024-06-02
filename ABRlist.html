@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             background-color: #3a3a3a; /* Consistent dark grey background */
-            display: flex; /* Using Flexbox for layout */
+            display: flex; /* Ensuring proper layout */
         }
         .navbar {
             background-color: #1a1a1a;
@@ -29,14 +29,13 @@
             color: black;
         }
         .sidebar {
-            width: 33%; /* Sidebar takes up one-third of the body's width */
+            width: 33%; /* Sidebar takes up one-third of the screen width */
             background-color: #2d2d2d; /* Dark background for sidebar */
             padding: 20px;
             color: white;
-            height: 100vh; /* Full height */
         }
         .content {
-            width: 67%; /* Remaining content area */
+            flex-grow: 1; /* Fill the rest of the space */
             padding: 20px;
             color: white;
         }
@@ -78,7 +77,7 @@
         </ul>
     </div>
     <div class="content">
-        <!-- Additional content can go here -->
+        <!-- Placeholder for additional content if needed -->
     </div>
 </body>
 </html>
