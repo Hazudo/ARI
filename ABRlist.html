@@ -4,55 +4,75 @@
     <title>Aberration Index - Aberration Research Institute</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        /* Sets the default font and background color for the entire page */
         body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #3a3a3a; /* Consistent dark grey background */
+            font-family: 'Poppins', sans-serif; /* Sets the font to Poppins, which is imported from Google Fonts */
+            margin: 0; /* Removes default margin from the body */
+            padding: 0; /* Removes default padding from the body */
+            background-color: #3a3a3a; /* Sets the background color to a dark grey */
         }
+
+        /* Styles the navigation bar */
         .navbar {
-            background-color: #1a1a1a;
-            overflow: hidden;
+            background-color: #1a1a1a; /* Darker background color for contrast */
+            overflow: hidden; /* Prevents content from spilling outside the navbar */
         }
+
+        /* Styles the links within the navbar */
         .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
+            float: left; /* Positions links to the left side in a row */
+            display: block; /* Makes each link a block-level element */
+            color: #f2f2f2; /* Light grey text for readability */
+            text-align: center; /* Centers text inside the link */
+            padding: 14px 20px; /* Adds padding around the text for better touch target and spacing */
+            text-decoration: none; /* Removes underline from links */
         }
+
+        /* Changes the style of links on hover for visual feedback */
         .navbar a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #ddd; /* Light background on hover */
+            color: black; /* Dark text on hover */
         }
+
+        /* Container for main content with flexible box layout */
         .container {
-            padding: 20px;
-            color: white;
-            display: flex; /* Use flexbox for layout */
+            padding: 20px; /* Padding around the content inside the container */
+            color: white; /* Text color for content */
+            display: flex; /* Enables flexible box model layout */
         }
+
+        /* Specific styling for the list container */
         .aberrations-list {
-            width: 200px; /* Set a fixed width for the list */
-            background-color: #2d2d2d;
-            padding: 10px;
-            margin-right: 20px; /* Add space between the list and any other content */
+            width: 400px; /* Doubled width for the list */
+            background-color: #2d2d2d; /* Slightly lighter grey than body for contrast */
+            padding: 10px; /* Padding inside the list container */
+            margin-right: 20px; /* Right margin for spacing between list and other content */
+            border: 2px solid #1a1a1a; /* Adds a border with a darker grey */
         }
+
+        /* Styles the list */
         ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
+            list-style-type: none; /* Removes default bullet points */
+            padding: 0; /* Removes default padding */
+            margin: 0; /* Removes default margin */
         }
+
+        /* Styles each list item */
         li {
-            padding: 8px;
-            margin: 5px 0;
-            border: none;
+            padding: 8px; /* Adds padding inside each list item for spacing */
+            margin: 5px 0; /* Adds vertical margin for spacing between list items */
+            border: none; /* No borders for list items */
         }
+
+        /* Styles links within the list */
         a {
-            color: #9c9c9c; /* Light grey links for readability */
-            text-decoration: none;
+            color: #9c9c9c; /* Sets the color of links to light grey for readability */
+            text-decoration: none; /* Removes underline from links */
         }
+
+        /* Enhances link appearance on hover */
         a:hover {
-            color: #ffffff;
+            color: #ffffff; /* White text on hover for high contrast */
         }
     </style>
 </head>
@@ -69,16 +89,14 @@
         <div class="aberrations-list">
             <h1>Aberration Index</h1>
             <ul>
-                <!-- Generate list of ABRs -->
-                <!-- Each item is a placeholder link -->
+                <!-- Each item is a placeholder link to a specific ABR page -->
                 <li><a href="ABR001.html">ABR-001</a></li>
                 <li><a href="ABR002.html">ABR-002</a></li>
                 <li><a href="ABR003.html">ABR-003</a></li>
-                <!-- Continue listing up to ABR50 -->
+                <!-- Continue listing up to ABR050 -->
                 <li><a href="ABR050.html">ABR-050</a></li>
             </ul>
         </div>
-        <!-- Optional: add other content here -->
+        <!-- Optional: Add other content here -->
     </div>
-</body>
-</html>
+</body
