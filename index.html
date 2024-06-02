@@ -1,49 +1,58 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Aberration Research Institute</title>
+<!DOCTYPE html> <!-- This line is a document type declaration. It helps the browser understand the type of document it's dealing with (in this case, HTML5). -->
+
+<html> <!-- This is the root element of an HTML page. -->
+
+<head> <!-- The head element contains meta-information about the HTML document, such as its title and links to its scripts and CSS. -->
+    <title>Aberration Research Institute</title> <!-- The title element specifies the title of the HTML document. The title is displayed in the browser's title bar or tab. -->
+
     <!-- Import Poppins font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            /* Apply Poppins font */
-            font-family: 'Poppins', sans-serif;
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> <!-- The link element here is used to load the Poppins font from Google Fonts. -->
+
+    <style> <!-- The style element is used to embed CSS rules in an HTML document. -->
+        body { <!-- This is a CSS rule. It selects all body elements. -->
+            display: flex; <!-- This property sets the display context for the flex layout. -->
+            justify-content: center; <!-- This property aligns the flex container's items when the items do not use all available space on the main-axis. -->
+            align-items: center; <!-- This property specifies the default alignment for items inside the flexible container. -->
+            height: 100vh; <!-- This property sets the height of the body to 100% of the viewport's height. -->
+            font-family: 'Poppins', sans-serif; <!-- This property specifies the font family for the text. -->
+
             /* Add your image URL below */
-            background: url('https://i.imgur.com/nuyIPZf.png?1') no-repeat center center fixed; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
+            background: url('https://i.imgur.com/nuyIPZf.png?1') no-repeat center center fixed;  <!-- This property sets the background image of the body. -->
+            -webkit-background-size: cover; <!-- This property is a workaround for the background-size property in older versions of WebKit browsers. -->
+            -moz-background-size: cover; <!-- This property is a workaround for the background-size property in older versions of Mozilla browsers. -->
+            -o-background-size: cover; <!-- This property is a workaround for the background-size property in older versions of Opera browsers. -->
+            background-size: cover; <!-- This property specifies the size of the background images. -->
         }
-        h1 {
-            margin-bottom: 50px;
-            font-size: 7.5em; /* Increased from 2.5em to 7.5em */
-            text-align: center;
+
+        h1 { <!-- This is a CSS rule. It selects all h1 elements. -->
+            margin-bottom: 50px; <!-- This property sets the bottom margin of the h1 element. -->
+            font-size: 6.5em; <!-- This property sets the font size of the text. -->
+            text-align: center; <!-- This property sets the horizontal alignment of the text. -->
         }
-        .enter-button {
-            display: block;
-            margin: 0 auto;
-            padding: 10px 20px;
-            font-size: 1.2em;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 12px; /* Rounded edges */
+
+        .enter-button { <!-- This is a CSS rule. It selects all elements with class="enter-button". -->
+            display: block; <!-- This property specifies that the element should generate a block box. -->
+            margin: 0 auto; <!-- This property sets the top and bottom margins to 0 and the left and right margins to auto. -->
+            padding: 10px 20px; <!-- This property sets the padding area on all four sides of an element. -->
+            font-size: 1.2em; <!-- This property sets the font size of the text. -->
+            background-color: #333333; <!-- This property sets the background color of an element. -->
+            color: white; <!-- This property sets the color of the text. -->
+            border: none; <!-- This property sets the style of the four borders. -->
+            cursor: pointer; <!-- This property sets the type of mouse cursor to display when the mouse pointer is over an element. -->
+            border-radius: 12px; <!-- This property sets the rounding of the corners of an element. -->
         }
-        .enter-button:hover {
-            background-color: #45a049;
+
+        .enter-button:hover { <!-- This is a CSS rule. It selects elements with class="enter-button" when you mouse over them. -->
+            background-color: #4d4d4d; <!-- This property sets the background color of an element. -->
         }
     </style>
 </head>
-<body>
-    <div>
-        <h1>Aberration Research Institute</h1>
-        <button class="enter-button" onclick="location.href='your-target-page.html'">Enter</button>
+
+<body> <!-- The body element contains the content of the document, such as text, images, and so on. -->
+    <div> <!-- The div element is a container unit that encapsulates other page elements and divides the HTML document into sections. -->
+        <h1>Aberration Research Institute</h1> <!-- The h1 element defines a large heading. -->
+        <button class="enter-button" onclick="location.href='your-target-page.html'">Enter</button> <!-- The button element represents a clickable button. -->
     </div>
 </body>
+
 </html>
