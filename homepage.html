@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aberration Research Institute - Homepage</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -8,11 +10,13 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #3a3a3a; /* Slightly lighter grey */
+            background-color: #3a3a3a;
+            color: #D3D3D3;
         }
         .navbar {
-            background-color: #1a1a1a; /* Slightly darker for contrast */
+            background-color: #1a1a1a;
             overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.4);
         }
         .navbar a {
             float: left;
@@ -28,14 +32,59 @@
         }
         .container {
             padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
         h1 {
             text-align: center;
             margin-top: 50px;
+            font-size: 2.5em;
         }
         p {
             text-align: center;
             font-size: 1.2em;
+            margin-bottom: 50px;
+        }
+        .section {
+            margin: 50px 0;
+            padding: 20px;
+            background-color: #4B4B4B;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #D3D3D3;
+        }
+        .section p {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .team-member img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .team-member h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .team-member p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-top: 2px solid #666;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -51,6 +100,53 @@
     <div class="container">
         <h1>Welcome to Aberration Research Institute</h1>
         <p>This is the homepage of the Aberration Research Institute. Here, you can find information about our research, team, and contact details.</p>
+
+        <div class="section" id="mission">
+            <h2>Our Mission</h2>
+            <p>The Aberration Research Institute (ARI) is dedicated to the investigation, research, understanding, and secure containment of anomalies, phenomena, and entities collectively referred to as "Aberrations." Our mission is to protect humanity from these unknown threats while advancing scientific knowledge.</p>
+        </div>
+
+        <div class="section" id="team">
+            <h2>Our Team</h2>
+            <div class="team-member">
+                <img src="director.jpg" alt="Director of ARI" width="100" height="100">
+                <div>
+                    <h3>Dr. ███████ ██████</h3>
+                    <p>Director of ARI</p>
+                    <p>Dr. ███████ ██████ has been leading ARI for over two decades, bringing unparalleled expertise in anomaly research and containment strategies.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="chief_research_officer.jpg" alt="Chief Research Officer" width="100" height="100">
+                <div>
+                    <h3>Dr. █████ █████</h3>
+                    <p>Chief Research Officer</p>
+                    <p>With a background in theoretical physics and metaphysics, Dr. █████ heads ARI's research division, pushing the boundaries of our understanding of aberrations.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="head_field_operations.jpg" alt="Head of Field Operations" width="100" height="100">
+                <div>
+                    <h3>Agent ████ █████</h3>
+                    <p>Head of Field Operations</p>
+                    <p>Agent ████ leads ARI's containment and response teams, ensuring that all field operations are executed with precision and safety.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="research">
+            <h2>Our Research</h2>
+            <p>ARI conducts extensive research on various aberrations, aiming to understand their origins, properties, and potential threats. Our research is published in leading scientific journals and contributes to the global knowledge base on anomalous phenomena.</p>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any inquiries or need to report a potential aberration, please <a href="contact.html" class="contact">contact us</a>.</p>
+        </div>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Aberration Research Institute. All rights reserved.</p>
+    </footer>
 </body>
 </html>
