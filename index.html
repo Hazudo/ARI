@@ -1,47 +1,52 @@
 <!DOCTYPE html>
+<!-- Declaration of document type as HTML5 -->
 <html>
 <head>
+    <!-- Start of the head section which contains metadata and links to stylesheets -->
     <title>Aberration Research Institute</title>
+    <!-- Sets the title of the webpage shown in the browser tab -->
+
+    <!-- Link to Google Fonts to import the 'Poppins' font with specified weights -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
+        /* Internal CSS starts here */
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: 'Poppins', sans-serif;
-            background: url('ABRXXX.jpeg') no-repeat center center fixed; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
+            display: flex; /* Establishes a flex container for center alignment */
+            justify-content: center; /* Centers content horizontally */
+            align-items: center; /* Centers content vertically */
+            height: 100vh; /* Sets the height of the body to cover the full viewport height */
+            font-family: 'Poppins', sans-serif; /* Sets the font family for the body */
+            background: #f0f0f0; /* Sets the background color to light gray */
         }
         h1 {
-            margin-bottom: 50px;
-            font-size: 6.5em;
-            text-align: center;
-            font-weight: 400; /* Changed font-weight to make it thinner */
+            margin-bottom: 50px; /* Spacing below the header */
+            font-size: 6.5em; /* Sets the size of the header text */
+            text-align: center; /* Centers the header text horizontally */
+            font-weight: 400; /* Specifies the font weight (thin) */
         }
         .enter-button {
-            display: block;
-            margin: 0 auto;
-            padding: 20px 35px; /* Increased padding */
-            font-size: 1.5em; /* Increased font size */
-            background-color: #333333;
-            color: black; /* Changed text color to black */
-            border: none;
-            cursor: pointer;
-            border-radius: 12px;
+            display: block; /* Makes the button a block element */
+            margin: 0 auto; /* Centers the button horizontally */
+            padding: 20px 35px; /* Sets the padding inside the button for width and height */
+            font-size: 1.5em; /* Sets the text size within the button */
+            background-color: #333333; /* Button background color */
+            color: black; /* Text color for the button */
+            border: none; /* No border for the button */
+            cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+            border-radius: 12px; /* Rounded corners of the button */
         }
         .enter-button:hover {
-            background-color: #4d4d4d;
+            background-color: #4d4d4d; /* Changes background color on hover */
         }
     </style>
 </head>
 <body>
+    <!-- Body section containing the main content -->
     <div>
-        <h1>Aberration Research Institute</h1>
+        <h1>Aberration Research Institute</h1> <!-- Main heading -->
         <button class="enter-button" onclick="location.href='homepage.html'">Enter</button>
+        <!-- Button for entering the site, with an onclick event to redirect to the homepage -->
     </div>
 </body>
 </html>
