@@ -24,7 +24,7 @@
             text-align: center;
             font-weight: 400;
         }
-        .enter-button, .submit-button {
+        .button {
             display: block;
             margin: 20px auto;
             padding: 20px 35px;
@@ -35,7 +35,7 @@
             cursor: pointer;
             border-radius: 12px;
         }
-        .enter-button:hover, .submit-button:hover {
+        .button:hover {
             background-color: #4d4d4d;
         }
         .password-input {
@@ -51,7 +51,13 @@
         function checkPassword() {
             var password = document.getElementById('password').value;
             if (password === 'E9d6%S3Tp%6v') {
-                document.getElementById('enter-button').style.display = 'block';
+                var enterButton = document.createElement('button');
+                enterButton.className = 'button';
+                enterButton.innerText = 'Enter';
+                enterButton.onclick = function() {
+                    location.href = 'homepage.html';
+                };
+                document.getElementById('submit-button').replaceWith(enterButton);
             } else {
                 alert('Incorrect password. Please try again.');
             }
@@ -60,11 +66,10 @@
 </head>
 <body>
     <div>
-        <h2>Where the Unseen Threatens, We Stand Unyielding.</h2>
+        <h2>In the Darkness of the Night, We Stand Guard</h2>
         <h1>Aberration Research Institute</h1>
         <input type="password" id="password" class="password-input" placeholder="Enter Password">
-        <button class="submit-button" onclick="checkPassword()">Submit</button>
-        <button id="enter-button" class="enter-button" onclick="location.href='homepage.html'">Enter</button>
+        <button id="submit-button" class="button" onclick="checkPassword()">Submit</button>
     </div>
 </body>
 </html>
