@@ -25,7 +25,7 @@
             font-weight: 400;
         }
         .enter-button {
-            display: block;
+            display: none; /* Hide the button initially */
             margin: 0 auto;
             padding: 20px 35px;
             font-size: 1.5em;
@@ -38,13 +38,33 @@
         .enter-button:hover {
             background-color: #4d4d4d;
         }
+        .password-input {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
     </style>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById('password').value;
+            if (password === 'E9d6%S3Tp%6v') {
+                document.getElementById('enter-button').style.display = 'block';
+            } else {
+                alert('Incorrect password. Please try again.');
+            }
+        }
+    </script>
 </head>
 <body>
     <div>
         <h2>In the Darkness of the Night, We Stand Guard</h2>
         <h1>Aberration Research Institute</h1>
-        <button class="enter-button" onclick="location.href='homepage.html'">Enter</button>
+        <input type="password" id="password" class="password-input" placeholder="Enter Password">
+        <button onclick="checkPassword()">Submit</button>
+        <button id="enter-button" class="enter-button" onclick="location.href='homepage.html'">Enter</button>
     </div>
 </body>
 </html>
