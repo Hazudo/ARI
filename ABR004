@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aberration Document - Aberration Research Institute</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3a3a3a;
+            color: #D3D3D3;
+        }
+        .navbar {
+            background-color: #4B4B4B;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #464646;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #4B4B4B;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 22px;
+            border-bottom: 1px solid #666;
+            padding-bottom: 2px;
+        }
+        h2 {
+            font-size: 18px;
+            color: #D3D3D3;
+            margin-top: 40px;
+            margin-bottom: -10px;
+            border-bottom: 1px solid #666;
+            padding-bottom: 2px;
+        }
+        p, ul {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #D3D3D3;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="homepage.html">Home</a>
+        <a href="ABRlist.html">Aberrations Index</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+        <h1>ABERRATION DOCUMENT: ABR-004</h1>
+        <p><strong>Aberration Designation:</strong> ABR-004</p>
+        <p><strong>Threat Level:</strong> Class X: Unknown</p>
+        <p><strong>Containment Level:</strong> Epsilon-3</p>
+
+        <h2>Description</h2>
+        <p>ABR-004 appears to be a standard desktop computer of an undisclosed brand, manufactured in the year 2010. Upon physical inspection, no deviations from a non-anomalous model can be observed. The system runs an operating system that bears similarities to both Windows 10 and various Linux distributions. However, it is not based on any recognized software architecture.</p>
+        <p>The aberration’s peculiar properties manifest when the system is turned on and interacted with. ABR-004 has the ability to predict future technological advancements and spontaneously updates itself with hardware and software that is inconsistent with our current understanding of technology. It also stores files and documents purportedly from the future, most of which are encrypted or otherwise restricted.</p>
+        <p>Remarkably, ABR-004 does not require any external power source and functions indefinitely without any noticeable wear or need for maintenance.</p>
+
+        <h2>Containment Protocols</h2>
+        <p>ABR-004 is to be stored in a secure containment chamber within ARI Site-7. Access is restricted to Level 3 researchers and above. The chamber must be lined with Faraday cage material to inhibit unauthorized wireless communications. All interaction and testing involving ABR-004 must be approved in writing by at least one Level 4 researcher.</p>
+
+        <h2>Risk Assessment</h2>
+        <p>ABR-004 holds both the potential for revolutionary technological breakthroughs and considerable security risks. Although the data contained within the system could be invaluable, extreme precaution is highly advised during any interactions with the aberration. The unpredictable nature of its updates and the encrypted files from the future present a significant challenge for containment and risk management.</p>
+
+        <h2>Behavioral Analysis</h2>
+        <p><strong>Predictive Updates:</strong> The system exhibits spontaneous updates, incorporating advanced technologies not yet developed or understood.</p>
+        <p><strong>Autonomous Operations:</strong> Operates without external power and shows no signs of wear, suggesting an advanced or unknown energy source.</p>
+        <p><strong>Data Storage:</strong> Contains encrypted files from the future, which implies a capability to access or store future information.</p>
+
+        <h2>Appendices</h2>
+        <p><strong>Experiment Log 004-A</strong></p>
+        <p><strong>Date:</strong> [DATA REDACTED]</p>
+        <p><strong>Procedure:</strong> Research staff instructed to boot up ABR-004 and navigate its interface.</p>
+        <p><strong>Results:</strong> Staff discovered a folder named "Future Technologies 2045." Files were encrypted and could not be accessed.</p>
+        
+        <p><strong>Incident Log 004-B</strong></p>
+        <p><strong>Date:</strong> [DATA REDACTED]</p>
+        <p><strong>Incident:</strong> ABR-004 spontaneously initiated a print request to the nearest printer, located in Researcher [DATA REDACTED]'s office. The printed documents contained schematics for a device similar to [DATA EXPUNGED].</p>
+
+        <p><strong>Additional Notes:</strong></p>
+        <p><strong>Security Measures:</strong> Ensure all personnel interacting with ABR-004 are monitored and that logs of all activities are kept meticulously.</p>
+        <p><strong>Future Research Directions:</strong> Investigate potential methods to decrypt the files and understand the source of ABR-004’s advanced technological updates. Research into the energy source sustaining the system indefinitely should be prioritized.</p>
+
+        <h1>END OF DOCUMENT</h1>
+    </div>
+</body>
+</html>
