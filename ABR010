@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aberration Document - Aberration Research Institute</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3a3a3a;
+            color: #D3D3D3;
+        }
+        .navbar {
+            background-color: #4B4B4B;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #464646;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #4B4B4B;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 22px;
+            border-bottom: 1px solid #666;
+            padding-bottom: 2px;
+        }
+        h2 {
+            font-size: 18px;
+            color: #D3D3D3;
+            margin-top: 40px;
+            margin-bottom: -10px;
+            border-bottom: 1px solid #666;
+            padding-bottom: 2px;
+        }
+        p, ul {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #D3D3D3;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="homepage.html">Home</a>
+        <a href="ABRlist.html">Aberrations Index</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+        <h1>ABERRATION DOCUMENT: ABR-010</h1>
+        <p><strong>Aberration Designation:</strong> ABR-010</p>
+        <p><strong>Threat Level:</strong> Class III: Hazardous</p>
+        <p><strong>Containment Level:</strong> Gamma-2</p>
+
+        <h2>Description</h2>
+        <p>ABR-010, commonly referred to as "The Toothpick," is a seemingly ordinary wooden toothpick approximately 6.5 cm in length. Despite its mundane appearance, ABR-010 exhibits several anomalous properties that manifest when it comes into contact with human saliva or is otherwise activated by human touch.</p>
+        <p>Upon activation, ABR-010 induces a compulsive behavior in the individual who touched it, driving them to continuously clean their teeth with it. This behavior persists until either the toothpick is forcibly removed or the individual suffers significant injury to their gums and mouth. During this period, the individual becomes oblivious to their surroundings and may exhibit aggressive behavior if interrupted.</p>
+        <p>ABR-010 has also been observed to self-repair and regenerate when damaged, making it virtually indestructible by conventional means. Attempts to destroy ABR-010 using fire, crushing, or cutting have all failed, with the toothpick reassembling itself within minutes.</p>
+
+        <h2>Containment Protocols</h2>
+        <p>ABR-010 is to be contained within a small, airtight, and transparent polycarbonate case. The case must be kept in a secured containment locker at Site-64. The locker should be monitored by security personnel via surveillance cameras at all times. Handling of ABR-010 is strictly prohibited except under controlled experimental conditions and with the authorization of Level 4 personnel.</p>
+        <p>In the event of accidental activation, personnel are to utilize Class-B amnestics on the affected individual and immediately return ABR-010 to its containment case using non-conductive tools. Psychological evaluations are mandatory for all personnel involved in handling ABR-010, and any signs of compulsive behavior or trauma must be reported and treated promptly.</p>
+
+        <h2>Risk Assessment</h2>
+        <p>ABR-010 poses a significant psychological and physical threat to individuals who come into contact with it. The compulsive behavior it induces can lead to severe oral injuries, infections, and long-term psychological trauma. Furthermore, its indestructible nature and regenerative capabilities present a unique containment challenge, necessitating constant vigilance and specialized containment protocols.</p>
+
+        <h2>Behavioral Analysis</h2>
+        <p>ABR-010's primary anomalous effect is the induction of compulsive tooth-cleaning behavior. This compulsion overrides all other instincts and motivations, rendering the affected individual single-mindedly focused on the act. The affected individual becomes increasingly frantic and aggressive if attempts are made to remove the toothpick from their possession.</p>
+        <p>ABR-010 has shown no signs of sentience or self-awareness, and its actions appear purely mechanical and reactionary. However, its regenerative abilities suggest a degree of complexity in its construction or an unknown energy source fueling its anomalous properties.</p>
+
+        <h2>Appendices</h2>
+        <p><strong>Background:</strong> ABR-010 was recovered from a dental clinic in ████████ after a series of unexplained injuries and violent incidents were reported. The clinic staff had unknowingly been using ABR-010 as part of their routine supplies, leading to multiple patients and staff members being affected. The Aberration Research Institute was alerted following a particularly severe incident where a patient had to be sedated and restrained after exhibiting extreme aggression.</p>
+
+        <p><strong>Incident Reports:</strong>
+            <ul>
+                <li><strong>Incident 010-05:</strong> A researcher accidentally activated ABR-010 during an experiment, leading to severe self-inflicted injuries before containment could be re-established. The researcher required extensive medical and psychological treatment.</li>
+                <li><strong>Incident 010-11:</strong> ABR-010 breached containment briefly due to a malfunction in the containment locker. The toothpick was found in the possession of a security guard, who had to be subdued to prevent further harm.</li>
+            </ul>
+        </p>
+
+        <p><strong>Research:</strong> Current research focuses on understanding the mechanism behind ABR-010's compulsive influence and regenerative capabilities. Efforts are being made to identify any potential weaknesses or methods to neutralize its effects. Additionally, studies are being conducted to explore the origins of ABR-010 and any possible connections to other known aberrations.</p>
+
+        <h1>END OF DOCUMENT</h1>
+    </div>
+</body>
+</html>
