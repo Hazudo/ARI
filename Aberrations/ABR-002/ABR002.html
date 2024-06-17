@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABR-002 - Aberration Research Institute</title>
+    <title>Aberration Document - Aberration Research Institute</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -14,7 +14,7 @@
             color: #D3D3D3;
         }
         .navbar {
-            background-color: #4B4B4B;
+            background-color: #1a1a1a;
             overflow: hidden;
         }
         .navbar a {
@@ -37,19 +37,45 @@
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 250px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #2a2a2a;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
+        }
         h1 {
             font-size: 22px;
             border-bottom: 1px solid #666;
-            padding-bottom: 10px;
+            padding-bottom: 2px;
         }
         h2 {
             font-size: 18px;
             color: #D3D3D3;
             margin-top: 40px;
-            margin-bottom: -10px; /* Adjust this value to bring the following text closer */
-            border-bottom: 1px solid #666; /* This creates the line */
-            padding-bottom: 2px; /* Adjust this value to bring the line closer to the text */
-}
+            margin-bottom: -10px;
+            border-bottom: 1px solid #666;
+            padding-bottom: 2px;
+        }
         p, ul {
             font-size: 16px;
             line-height: 1.6;
@@ -66,18 +92,28 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="homepage.html">Home</a>
-        <a href="ABRlist.html">Aberrations Index</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
+        <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
+        <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
+        <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
+        <a href="https://hazudo.github.io/ARI/about.html">About</a>
+        <a href="https://hazudo.github.io/ARI/research.html">Research</a>
+        <a href="https://hazudo.github.io/ARI/contact.html">Contact</a>
     </div>
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-002</h1>
-        <p><strong>Aberration Designation:</strong> ABR-002 "Voidshadow"</p>
-        <p><strong>Threat Level:</strong> Class IV: Critical (CR)</p>
-        <p><strong>Containment Level:</strong> Level Delta-2</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-002 "Voidshadow"</p>
+                <p><strong>Threat Level:</strong> Class IV: Critical (CR)</p>
+                <p><strong>Containment Level:</strong> Level Delta-2</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-001/Image%20of%20ABR001.jpg" alt="Image of ABR-002">
+                <p>First image of ABR-002</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-002, designated "Voidshadow," is a dynamic, fluid-like mass of darkness approximately 2 meters in height. The entity exhibits highly unusual optical properties, appearing as a moving void that absorbs light, rendering it nearly invisible in low-light environments. Its physical form is in constant flux, resembling a viscous liquid shadow with occasional tendrils extending and retracting from its central mass. When stationary, it can merge with shadows, becoming virtually undetectable.</p>
