@@ -14,7 +14,7 @@
             color: #D3D3D3;
         }
         .navbar {
-            background-color: #4B4B4B;
+            background-color: #1a1a1a;
             overflow: hidden;
         }
         .navbar a {
@@ -36,6 +36,32 @@
             background-color: #4B4B4B;
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 250px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
         }
         h1 {
             font-size: 22px;
@@ -65,19 +91,30 @@
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="homepage.html">Home</a>
-        <a href="ABRlist.html">Aberrations Index</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
+     <div class="navbar">
+        <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
+        <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
+        <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/containmentfacilities.html">Containment Facilities</a>
+        <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
+        <a href="https://hazudo.github.io/ARI/about.html">About</a>
+        <a href="https://hazudo.github.io/ARI/research.html">Research</a>
+        <a href="https://hazudo.github.io/ARI/contact.html">Contact</a>
     </div>
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-006</h1>
-        <p><strong>Aberration Designation:</strong> ABR-006</p>
-        <p><strong>Threat Level:</strong> Class III: Hazardous (HZ)</p>
-        <p><strong>Containment Level:</strong> Gamma-2</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-006</p>
+                <p><strong>Threat Level:</strong> Class III: Hazardous (HZ)</p>
+                <p><strong>Containment Level:</strong> Gamma-2</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-001/Image%20of%20ABR001.jpg" alt="Image of ABR-006">
+                <p>First image of ABR-006</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-006, known as "The Nexus Construct," is an anomaly consisting of a complex, constantly shifting network of symbols and patterns. It is believed to be a form of intelligent, metaphysical construct. The construct appears within a void-like space and is not detectable through traditional physical means. The nature of ABR-006 remains largely a mystery, as it defies conventional scientific understanding.</p>
