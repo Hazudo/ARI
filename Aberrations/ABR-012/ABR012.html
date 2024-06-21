@@ -23,11 +23,11 @@
             color: #f2f2f2;
             text-align: center;
             padding: 14px 20px;
-            text-decoration: none.
+            text-decoration: none;
         }
         .navbar a:hover {
             background-color: #464646;
-            color: black.
+            color: black;
         }
         .container {
             padding: 20px;
@@ -35,12 +35,38 @@
             max-width: 800px;
             background-color: #4B4B4B;
             border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2).
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
         }
         h1 {
             font-size: 22px;
             border-bottom: 1px solid #666;
-            padding-bottom: 2px.
+            padding-bottom: 2px;
         }
         h2 {
             font-size: 18px;
@@ -48,19 +74,19 @@
             margin-top: 40px;
             margin-bottom: -10px;
             border-bottom: 1px solid #666;
-            padding-bottom: 2px.
+            padding-bottom: 2px;
         }
         p, ul {
             font-size: 16px;
             line-height: 1.6;
-            color: #D3D3D3.
+            color: #D3D3D3;
         }
         ul {
             list-style-type: none;
-            padding-left: 0.
+            padding-left: 0;
         }
         li {
-            padding: 5px 0.
+            padding: 5px 0;
         }
     </style>
 </head>
@@ -75,9 +101,17 @@
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-012</h1>
-        <p><strong>Aberration Designation:</strong> ABR-012</p>
-        <p><strong>Threat Level:</strong> Class III: Hazardous</p>
-        <p><strong>Containment Level:</strong> Gamma-3</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-012</p>
+                <p><strong>Threat Level:</strong> 07</p>
+                <p><strong>Containment Division:</strong> Delta-3</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-012/Image%20of%20ABR012.jpg" alt="Image of ABR-012">
+                <p>First image of ABR-012</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-012, known as the "Guided Ignition Projectile," is a .50 caliber bullet with seemingly ordinary physical properties. Despite its mundane appearance, ABR-012 exhibits highly anomalous behavior when fired from a compatible firearm. The projectile demonstrates extreme accuracy, trajectory control, and a capacity to generate intense thermal energy upon impact.</p>
@@ -97,14 +131,11 @@
 
         <h2>Appendices</h2>
         <p><strong>Background:</strong> ABR-012 was recovered following a high-profile assassination attempt on ██/██/████. The bullet was found at the scene and identified as the cause of the target's death. The anomalous nature of ABR-012 was quickly recognized, prompting containment by ARI personnel. Efforts to trace the origins of ABR-012 are ongoing, with current theories suggesting artificial engineering beyond known scientific capabilities.</p>
-
-        <p><strong>Incident Reports:</strong>
-            <ul>
-                <li><strong>Incident 012-01:</strong> Initial recovery of ABR-012 following a high-profile assassination. The bullet exhibited its anomalous properties during the incident, leading to the death of the target despite significant protective measures. The projectile was found to regenerate after impact, prompting immediate containment efforts.</li>
-                <li><strong>Incident 012-05:</strong> Testing revealed ABR-012's ability to alter its trajectory mid-flight, successfully hitting a target that was initially out of sight and behind several barriers. The projectile also demonstrated its intense thermal energy release, incinerating the target upon impact. Post-impact, ABR-012 began its regeneration process, leading to the establishment of new containment protocols.</li>
-            </ul>
-        </p>
-
+        <p><strong>Incident Reports:</strong></p>
+        <ul>
+            <li><strong>Incident 012-01:</strong> Initial recovery of ABR-012 following a high-profile assassination. The bullet exhibited its anomalous properties during the incident, leading to the death of the target despite significant protective measures. The projectile was found to regenerate after impact, prompting immediate containment efforts.</li>
+            <li><strong>Incident 012-05:</strong> Testing revealed ABR-012's ability to alter its trajectory mid-flight, successfully hitting a target that was initially out of sight and behind several barriers. The projectile also demonstrated its intense thermal energy release, incinerating the target upon impact. Post-impact, ABR-012 began its regeneration process, leading to the establishment of new containment protocols.</li>
+        </ul>
         <p><strong>Research:</strong> Ongoing research aims to uncover the origins and mechanisms behind ABR-012's guidance, thermal, and regenerative capabilities. Investigations into potential weaknesses and methods to neutralize the projectile permanently are a priority. Efforts to understand the guidance system, whether technological or anomalous, are also underway, with the goal of replicating or countering its effects.</p>
 
         <h1>END OF DOCUMENT</h1>
