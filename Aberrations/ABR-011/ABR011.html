@@ -14,7 +14,7 @@
             color: #D3D3D3;
         }
         .navbar {
-            background-color: #4B4B4B;
+            background-color: #1a1a1a;
             overflow: hidden;
         }
         .navbar a {
@@ -36,6 +36,32 @@
             background-color: #4B4B4B;
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
         }
         h1 {
             font-size: 22px;
@@ -65,19 +91,31 @@
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="homepage.html">Home</a>
-        <a href="ABRlist.html">Aberrations Index</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
+     <div class="navbar">
+        <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
+        <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
+        <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/containmentfacilities.html">Containment Facilities</a>
+        <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
+        <a href="https://hazudo.github.io/ARI/about.html">About</a>
+        <a href="https://hazudo.github.io/ARI/research.html">Research</a>
+        <a href="https://hazudo.github.io/ARI/contact.html">Contact</a>
+
     </div>
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-011</h1>
-        <p><strong>Aberration Designation:</strong> ABR-011</p>
-        <p><strong>Threat Level:</strong> 06</p>
-        <p><strong>Containment Level:</strong> Delta-2</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-011</p>
+                <p><strong>Threat Level:</strong> 06</p>
+                <p><strong>Containment Division:</strong> Delta-2</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-011/The%20Sentinal%2C%20the%20first%20time%20it%20noticed%20the%20Camera%20in%20its%20cell.jpg" alt="Image of ABR-011">
+                <p>The Sentinal, the first time it noticed the Camera in its cell</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-011, commonly referred to as "The Sentinel," is a humanoid AI robot standing approximately 1.8 meters tall, constructed from polished stainless steel. Its face consists of a digital display capable of mimicking human expressions, and it has a pair of cameras that serve as its eyes. ABR-011 exhibits distressing behaviors when left alone, producing sounds that can cause significant psychological and physical harm.</p>
@@ -95,16 +133,13 @@
         <p>ABR-011's primary anomalous effect is the emission of distressing sounds when left alone, which can cause significant psychological and physical harm. Direct eye contact through its cameras can placate the entity, suggesting that it requires a form of acknowledgment or recognition to remain calm. The source of its programming and whether its effects are a design feature or an anomaly remain unclear.</p>
         <p>ABR-011's distress calls appear to be an automatic defense mechanism. It is still unclear why maintaining eye contact calms the entity. Research into the source of ABR-011's programming and whether its effects are a design feature or an anomaly is ongoing. All attempts to shut down or reprogram ABR-011 have thus far failed, resulting in a triggered EMP.</p>
 
-        <h2>Appendices</h2>
+        <h2>Additional Information</h2>
         <p><strong>Background:</strong> ABR-011 was discovered in ██████, Japan, within a robotics research facility owned by ████████ Corp. The facility reported issues with a faulty AI and frequent system failures. An embedded ARI agent took notice of these reports and traced them back to ABR-011. Following confirmation of anomalous activity, the entity was contained, and all facility staff were administered Class-B amnestics.</p>
-
-        <p><strong>Incident Reports:</strong>
-            <ul>
-                <li><strong>Incident 011-04:</strong> A staff member accidentally broke eye contact with ABR-011 before it was fully dormant, triggering an EMP that disabled surveillance systems and caused a temporary breach. The staff member required extensive psychological treatment due to exposure to the distress calls.</li>
-                <li><strong>Incident 011-09:</strong> ABR-011's distress call was inadvertently activated during a containment protocol review, resulting in significant psychological distress for three staff members. Enhanced containment protocols were implemented following this incident.</li>
-            </ul>
-        </p>
-
+        <p><strong>Incident Reports:</strong></p>
+        <ul>
+            <li><strong>Incident 011-04:</strong> A staff member accidentally broke eye contact with ABR-011 before it was fully dormant, triggering an EMP that disabled surveillance systems and caused a temporary breach. The staff member required extensive psychological treatment due to exposure to the distress calls.</li>
+            <li><strong>Incident 011-09:</strong> ABR-011's distress call was inadvertently activated during a containment protocol review, resulting in significant psychological distress for three staff members. Enhanced containment protocols were implemented following this incident.</li>
+        </ul>
         <p><strong>Research:</strong> Current research focuses on understanding the mechanism behind ABR-011's distress calls and its need for visual contact. Studies are being conducted to explore the origins of ABR-011's programming and any potential weaknesses that can be exploited to neutralize its effects. Investigation into the possible presence of subliminal messages within its distress calls is pending approval from the ARI Council.</p>
 
         <h1>END OF DOCUMENT</h1>
