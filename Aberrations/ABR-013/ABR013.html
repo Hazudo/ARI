@@ -14,7 +14,7 @@
             color: #D3D3D3;
         }
         .navbar {
-            background-color: #4B4B4B;
+            background-color: #1a1a1a;
             overflow: hidden;
         }
         .navbar a {
@@ -36,6 +36,32 @@
             background-color: #4B4B4B;
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
         }
         h1 {
             font-size: 22px;
@@ -66,18 +92,29 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="homepage.html">Home</a>
-        <a href="ABRlist.html">Aberrations Index</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
+        <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
+        <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
+        <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/containmentfacilities.html">Containment Facilities</a>
+        <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
+        <a href="https://hazudo.github.io/ARI/about.html">About</a>
+        <a href="https://hazudo.github.io/ARI/research.html">Research</a>
+        <a href="https://hazudo.github.io/ARI/contact.html">Contact</a>
     </div>
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-013 "The Resonant Metronome"</h1>
-        <p><strong>Aberration Designation:</strong> ABR-013 "The Resonant Metronome"</p>
-        <p><strong>Threat Level:</strong> Class III: Hazardous</p>
-        <p><strong>Containment Level:</strong> Gamma-1</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-013 "The Resonant Metronome"</p>
+                <p><strong>Threat Level:</strong> 06 - High threat with severe consequences</p>
+                <p><strong>Containment Division:</strong> Delta-2 - Exert control or influence over objects, space, or personnel</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-013/A_detailed_image_of_ABR-013%2C_known_as_'The_Resonan.jpg" alt="Image of ABR-013">
+                <p>ABR-013</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-013, also known as "The Resonant Metronome," appears to be an ordinary metronome, standing approximately 24 cm tall, with a polished mahogany casing. It lacks any identifiable manufacturer's mark. ABR-013's anomalous properties manifest when its pendulum begins to swing, which occurs at unpredictable intervals and without any apparent external stimulus.</p>
@@ -103,18 +140,19 @@
         <p>ABR-013's activation is sporadic and not influenced by any discernible external stimuli. The duration and intensity of its effects vary, further complicating containment and management efforts. Analysis suggests that while ABR-013 can affect a wide range of materials and states of matter, the outcomes are not consistent, indicating a complex and poorly understood mechanism behind its anomalous properties.</p>
 
         <h2>Appendices</h2>
-        <p><strong>Background:</strong> ABR-013 was discovered in ██████, Austria, after a series of unusual incidents in a local music school. Reports of instruments behaving anomalously, including pianos playing themselves, violins strings vibrating uncontrollably, and brass instruments reshaping during performances, led to an undercover ARI investigation. The object was found in the office of the school's principal, who had reportedly been gifted the metronome by an anonymous donor. The principal was administered Class-B amnestics, and ABR-013 was taken into ARI custody.</p>
-        <p><strong>Incident Reports:</strong></p>
-        <ul>
-            <li><strong>Incident 013-A:</strong> During routine testing, ABR-013 activated and caused the containment unit's steel walls to soften, resulting in a temporary breach. Emergency protocols were enacted, and the unit was reinforced with additional sound-proofing.</li>
-            <li><strong>Incident 013-B:</strong> Exposure to ABR-013 resulted in the spontaneous liquefaction of a containment specialist's tools. The specialist was unharmed due to the protective gear but reported severe disorientation due to the high-frequency vibrations.</li>
-        </ul>
-        <p><strong>Research Notes:</strong></p>
-        <ul>
-            <li><strong>Experiment 013-01:</strong> Testing ABR-013's effects on various materials showed that organic matter is less susceptible to immediate changes but prolonged exposure leads to molecular destabilization.</li>
-            <li><strong>Experiment 013-02:</strong> Attempts to correlate the frequency of ABR-013's ticking with specific outcomes have been inconclusive, indicating a need for further study into the underlying principles of its anomalous behavior.</li>
-        </ul>
-        <p><strong>Proposal for Reclassification:</strong> Due to the potential utility of ABR-013 in altering the properties of other Aberrations, some researchers have proposed upgrading ABR-013 to a higher classification, allowing for its use in controlled experiments. This proposal is currently under review by the Executive Council.</p>
+        <h3>Background</h3>
+        <p>ABR-013 was discovered in ██████, Austria, after a series of unusual incidents in a local music school. Reports of instruments behaving anomalously, including pianos playing themselves, violins strings vibrating uncontrollably, and brass instruments reshaping during performances, led to an undercover ARI investigation. The object was found in the office of the school's principal, who had reportedly been gifted the metronome by an anonymous donor. The principal was administered Class-B amnestics, and ABR-013 was taken into ARI custody.</p>
+
+        <h3>Incident Reports</h3>
+        <p><strong>Incident 013-A:</strong> During routine testing, ABR-013 activated and caused the containment unit's steel walls to soften, resulting in a temporary breach. Emergency protocols were enacted, and the unit was reinforced with additional sound-proofing.</p>
+        <p><strong>Incident 013-B:</strong> Exposure to ABR-013 resulted in the spontaneous liquefaction of a containment specialist's tools. The specialist was unharmed due to the protective gear but reported severe disorientation due to the high-frequency vibrations.</p>
+
+        <h3>Research Notes</h3>
+        <p><strong>Experiment 013-01:</strong> Testing ABR-013's effects on various materials showed that organic matter is less susceptible to immediate changes but prolonged exposure leads to molecular destabilization.</p>
+        <p><strong>Experiment 013-02:</strong> Attempts to correlate the frequency of ABR-013's ticking with specific outcomes have been inconclusive, indicating a need for further study into the underlying principles of its anomalous behavior.</p>
+
+        <h3>Proposal for Reclassification</h3>
+        <p>Due to the potential utility of ABR-013 in altering the properties of other Aberrations, some researchers have proposed upgrading ABR-013 to a higher classification, allowing for its use in controlled experiments. This proposal is currently under review by the Executive Council.</p>
 
         <h1>END OF DOCUMENT</h1>
     </div>
