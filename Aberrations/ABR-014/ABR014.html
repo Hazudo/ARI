@@ -14,7 +14,7 @@
             color: #D3D3D3;
         }
         .navbar {
-            background-color: #4B4B4B;
+            background-color: #1a1a1a;
             overflow: hidden;
         }
         .navbar a {
@@ -36,6 +36,32 @@
             background-color: #4B4B4B;
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
         }
         h1 {
             font-size: 22px;
@@ -66,18 +92,29 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="homepage.html">Home</a>
-        <a href="ABRlist.html">Aberrations Index</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
+        <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
+        <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
+        <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/containmentfacilities.html">Containment Facilities</a>
+        <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
+        <a href="https://hazudo.github.io/ARI/about.html">About</a>
+        <a href="https://hazudo.github.io/ARI/research.html">Research</a>
+        <a href="https://hazudo.github.io/ARI/contact.html">Contact</a>
     </div>
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-014 "The Echoing Whisperer"</h1>
-        <p><strong>Aberration Designation:</strong> ABR-014 "The Echoing Whisperer"</p>
-        <p><strong>Threat Level:</strong> Class IV: Critical</p>
-        <p><strong>Containment Level:</strong> Delta-1</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-014 "The Echoing Whisperer"</p>
+                <p><strong>Threat Level:</strong> 07</p>
+                <p><strong>Containment Division:</strong> Delta-2</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-014/2905d819-e2ff-4497-99ca-4c19c96b28c1-gigapixel-standard%20v2-2x.jpeg" alt="Image of ABR-014">
+                <p>ABR-014</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-014, colloquially referred to as "The Echoing Whisperer," is a vintage, ribbon-style microphone with a tarnished silver exterior and a delicate mesh grill. The microphone emits an ethereal glow when active, and the sound it captures is imbued with anomalous properties. When spoken or sung into, ABR-014 amplifies the sound, adding a haunting reverberation that carries an unsettling resonance capable of affecting both physical and mental states.</p>
@@ -96,7 +133,7 @@
         <p>ABR-014 exhibits a reactive activation pattern, often responding to ambient sound levels or direct vocal input. The echoes generated appear to have an underlying pattern or intelligence, suggesting the presence of a sentient or semi-sentient element. Further analysis is required to understand the full scope of ABR-014's capabilities and the potential origins of its anomalous properties.</p>
         <p>Testing has revealed that the psychological impact of ABR-014's echoes is cumulative, with repeated exposure leading to more severe symptoms. The aberration's influence appears to be particularly potent in individuals with pre-existing psychological conditions, though no one is entirely immune.</p>
 
-        <h2>Appendices</h2>
+        <h2>Additional Information</h2>
         <p><strong>Background:</strong> ABR-014 was discovered in an abandoned recording studio in ████████, USA, following a series of mysterious deaths attributed to unexplained auditory phenomena. The microphone was found connected to an antiquated recording system, still active despite the lack of power to the building. Local authorities were alerted to the abnormal circumstances, and ARI agents intervened to secure the aberration. Survivors from the initial discovery team reported persistent auditory hallucinations, necessitating the use of Class-B amnestics.</p>
         <p><strong>Incident Reports:</strong></p>
         <ul>
