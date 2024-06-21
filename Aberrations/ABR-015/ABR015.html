@@ -14,7 +14,7 @@
             color: #D3D3D3;
         }
         .navbar {
-            background-color: #4B4B4B;
+            background-color: #1a1a1a;
             overflow: hidden;
         }
         .navbar a {
@@ -36,6 +36,32 @@
             background-color: #4B4B4B;
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
         }
         h1 {
             font-size: 22px;
@@ -66,18 +92,29 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="homepage.html">Home</a>
-        <a href="ABRlist.html">Aberrations Index</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
+        <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
+        <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
+        <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/containmentfacilities.html">Containment Facilities</a>
+        <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
+        <a href="https://hazudo.github.io/ARI/about.html">About</a>
+        <a href="https://hazudo.github.io/ARI/research.html">Research</a>
+        <a href="https://hazudo.github.io/ARI/contact.html">Contact</a>
     </div>
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-015 "The Reflective Abyss"</h1>
-        <p><strong>Aberration Designation:</strong> ABR-015 "The Reflective Abyss"</p>
-        <p><strong>Threat Level:</strong> Class IV: Critical</p>
-        <p><strong>Containment Level:</strong> Delta-2</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-015 "The Reflective Abyss"</p>
+                <p><strong>Threat Level:</strong> 08</p>
+                <p><strong>Containment Division:</strong> Delta-1</p>
+            </div>
+            <div class="image-container">
+                <img src="https://github.com/Hazudo/ARI/blob/main/Aberrations/ABR-015/ABR-015.jpg" alt="Image of ABR-015">
+                <p>Image of ABR-015 "The Reflective Abyss"</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-015, known as "The Reflective Abyss," is an ornate, full-length mirror standing approximately 2 meters tall and 1 meter wide. The frame is crafted from a dark, unknown metal intricately designed with motifs of twisted faces and agonized figures. The mirror's surface appears perfectly reflective under all lighting conditions.</p>
@@ -97,18 +134,23 @@
         <p>Analysis indicates that the mirror's effects are cumulative, with repeated exposure leading to increasingly severe psychological symptoms. Efforts to understand the origin and nature of ABR-015's powers are ongoing, with research focused on identifying potential countermeasures or mitigating strategies.</p>
 
         <h2>Appendices</h2>
-        <p><strong>Background:</strong> ABR-015 was discovered in the basement of an abandoned mansion in ██████, England, following reports of unexplained disappearances and local legends of a "cursed mirror." ARI agents retrieved ABR-015 after confirming its anomalous properties. The mansion was subsequently demolished to prevent further incidents, and local witnesses were treated with Class-B amnestics.</p>
-        <p><strong>Incident Reports:</strong></p>
+        <h3>Background</h3>
+        <p>ABR-015 was discovered in the basement of an abandoned mansion in ██████, England, following reports of unexplained disappearances and local legends of a "cursed mirror." ARI agents retrieved ABR-015 after confirming its anomalous properties. The mansion was subsequently demolished to prevent further incidents, and local witnesses were treated with Class-B amnestics.</p>
+
+        <h3>Incident Reports</h3>
         <ul>
             <li><strong>Incident 015-A:</strong> During initial containment, a researcher inadvertently viewed ABR-015's surface and experienced a severe psychological breakdown, resulting in self-harm and incoherent speech. The researcher required immediate medical and psychological intervention and has since been placed on indefinite leave.</li>
             <li><strong>Incident 015-B:</strong> A containment breach occurred when ABR-015's chamber was accidentally exposed to a reflective surface, leading to the mirror's anomalous effects propagating beyond the containment unit. The sector was evacuated, and containment was re-established using non-reflective barriers.</li>
         </ul>
-        <p><strong>Research Notes:</strong></p>
+
+        <h3>Research Notes</h3>
         <ul>
             <li><strong>Experiment 015-01:</strong> Initial experiments to understand the range of ABR-015's effects revealed that the mirror's influence is confined to direct line-of-sight exposure. Indirect viewing through reflections or video feeds does not trigger the anomalous properties, though caution is still advised.</li>
             <li><strong>Experiment 015-02:</strong> Attempts to analyze the psychological impact of ABR-015 suggest that the mirror interacts with the viewer's subconscious mind, selectively amplifying latent fears and insecurities. The exact neural mechanisms involved remain a subject of ongoing study.</li>
         </ul>
-        <p><strong>Proposal for Reclassification:</strong> Given the profound psychological risks and the potential for widespread mental health crises, there is a proposal to reclassify ABR-015 as Class V: Apocalyptic. This proposal is currently under review by the Executive Council, pending further research and risk assessment.</p>
+
+        <h3>Proposal for Reclassification</h3>
+        <p>Given the profound psychological risks and the potential for widespread mental health crises, there is a proposal to reclassify ABR-015 as Class V: Apocalyptic. This proposal is currently under review by the Executive Council, pending further research and risk assessment.</p>
 
         <h1>END OF DOCUMENT</h1>
     </div>
