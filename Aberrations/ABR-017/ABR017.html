@@ -14,7 +14,7 @@
             color: #D3D3D3;
         }
         .navbar {
-            background-color: #4B4B4B;
+            background-color: #1a1a1a;
             overflow: hidden;
         }
         .navbar a {
@@ -36,6 +36,32 @@
             background-color: #4B4B4B;
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
         }
         h1 {
             font-size: 22px;
@@ -65,30 +91,42 @@
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="homepage.html">Home</a>
-        <a href="ABRlist.html">Aberrations Index</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
+     <div class="navbar">
+        <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
+        <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
+        <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/containmentfacilities.html">Containment Facilities</a>
+        <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
+        <a href="https://hazudo.github.io/ARI/about.html">About</a>
+        <a href="https://hazudo.github.io/ARI/research.html">Research</a>
+        <a href="https://hazudo.github.io/ARI/contact.html">Contact</a>
+
     </div>
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-017</h1>
-        <p><strong>Aberration Designation:</strong> ABR-017</p>
-        <p><strong>Threat Level:</strong> Class X: Unknown</p>
-        <p><strong>Containment Level:</strong> Beta-2</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-017</p>
+                <p><strong>Threat Level:</strong> 06</p>
+                <p><strong>Containment Division:</strong> Delta-1</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-017/92a9645b-604d-4a75-b0c8-26c4c438e108-gigapixel-standard%20v2-2x.jpeg" alt="Image of ABR-017">
+                <p>A microscopic image of the virus, ABR-017, "Phantom Flu."</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-017, colloquially known as "Phantom Flu," is an anomalous viral phenomenon that selectively affects individuals already suffering from a flu or other viral infections. The aberration manifests through an exacerbation of typical flu-like symptoms and the induction of unique neurological effects. Individuals infected with ABR-017 experience intensified symptoms such as fever, fatigue, muscle aches, transient hallucinations, inexplicable phobias, and heightened sensitivity to light and sound. These symptoms persist for the duration of the underlying viral infection and abate upon recovery from the initial illness.</p>
 
         <h2>Containment Protocols</h2>
-        <p>
-            1. <strong>Isolation of Infected Individuals:</strong> Individuals diagnosed with any flu or viral infection within ARI facilities must be isolated immediately upon the onset of symptoms to prevent potential spread.<br>
-            2. <strong>Environmental Decontamination:</strong> Areas occupied by infected individuals must undergo rigorous decontamination procedures, including UV sterilization and antiviral treatments.<br>
-            3. <strong>Protective Measures:</strong> Personnel interacting with potentially infected individuals must wear full biohazard suits and utilize air-filtration masks to prevent exposure.<br>
-            4. <strong>Monitoring and Reporting:</strong> All cases of ABR-017 must be documented thoroughly. Any anomalous behavior or symptoms are to be reported to ARI's medical division immediately.
-        </p>
+        <ul>
+            <li>Isolation of Infected Individuals: Individuals diagnosed with any flu or viral infection within ARI facilities must be isolated immediately upon the onset of symptoms to prevent potential spread.</li>
+            <li>Environmental Decontamination: Areas occupied by infected individuals must undergo rigorous decontamination procedures, including UV sterilization and antiviral treatments.</li>
+            <li>Protective Measures: Personnel interacting with potentially infected individuals must wear full biohazard suits and utilize air-filtration masks to prevent exposure.</li>
+            <li>Monitoring and Reporting: All cases of ABR-017 must be documented thoroughly. Any anomalous behavior or symptoms are to be reported to ARI's medical division immediately.</li>
+        </ul>
 
         <h2>Risk Assessment</h2>
         <p>ABR-017 presents a unique set of risks due to its ability to exacerbate existing illnesses and induce severe psychological distress. The lack of comprehensive data on its transmission and full range of effects complicates containment and treatment efforts. Infected individuals may experience unpredictable behavior, posing potential threats to themselves and others. The uncertainty surrounding ABR-017's mechanisms and long-term effects necessitates ongoing research and vigilance.</p>
@@ -96,25 +134,21 @@
         <h2>Behavioral Analysis</h2>
         <p>Initial observations indicate that ABR-017 exploits the weakened immune state of individuals with viral infections. It thrives in the biochemical environment created by the host's immune response, suggesting a parasitic relationship with common viral pathogens. The neurological symptoms—particularly hallucinations and phobias—appear to be induced by direct interference with the host's central nervous system, though the exact process remains unclear.</p>
 
-        <h2>Appendices</h2>
-        <p>
-            <strong>Background:</strong><br>
-            The first documented instance of ABR-017 occurred in ██████, where a cluster of influenza patients exhibited severe neurological symptoms uncharacteristic of standard flu cases. Subsequent investigations linked these anomalies to ABR-017.
-            <br><br>
-            <strong>Incident Reports:</strong><br>
-            [Incident Report ABR-017-01]: Detailed account of the initial outbreak, containment efforts, and patient outcomes.<br>
-            [Incident Report ABR-017-02]: Summary of secondary outbreak in ARI facility, including containment breach and procedural review.
-            <br><br>
-            <strong>Research:</strong><br>
-            Confirmation of ABR-017 as an aberration came after the discovery of an unidentified, anomalous protein in the blood samples of affected individuals. This protein, designated "Protein X-017," exhibits several properties that defy conventional biological understanding:
-            <ul>
-                <li><strong>Anomalous Stability:</strong> Protein X-017 remains stable and active under conditions that denature normal proteins, such as extreme temperatures and pH levels.</li>
-                <li><strong>Non-Natural Amino Acid Sequences:</strong> The protein contains sequences of amino acids that do not correspond to any known sequences in terrestrial biology.</li>
-                <li><strong>Self-Replicating Mechanism:</strong> Unlike typical proteins, X-017 can replicate independently within a host, even without the presence of its originating virus, suggesting a quasi-living nature.</li>
-                <li><strong>Immune System Interaction:</strong> Protein X-017 interacts with the host’s immune system in a manner that amplifies the symptoms of the underlying viral infection and induces neurological anomalies. This interaction involves binding to immune cells and altering their response patterns, leading to cytokine storms and neuroinflammation.</li>
-            </ul>
-            Ongoing studies are focused on identifying the precise mechanisms of ABR-017, its potential origins, and effective treatment protocols. Collaborative efforts with external virology experts are being pursued to expedite findings. Research includes the analysis of the anomalous protein, its interaction with human physiology, and its potential origin. Recent experiments have demonstrated that Protein X-017 can induce symptoms in isolated immune cells, further confirming its role in the aberration.
-        </p>
+        <h2>Additional Information</h2>
+        <p><strong>Background:</strong> The first documented instance of ABR-017 occurred in ██████, where a cluster of influenza patients exhibited severe neurological symptoms uncharacteristic of standard flu cases. Subsequent investigations linked these anomalies to ABR-017.</p>
+        <p><strong>Incident Reports:</strong></p>
+        <ul>
+            <li><strong>Incident Report ABR-017-01:</strong> Detailed account of the initial outbreak, containment efforts, and patient outcomes.</li>
+            <li><strong>Incident Report ABR-017-02:</strong> Summary of secondary outbreak in ARI facility, including containment breach and procedural review.</li>
+        </ul>
+        <p><strong>Research:</strong> Confirmation of ABR-017 as an aberration came after the discovery of an unidentified, anomalous protein in the blood samples of affected individuals. This protein, designated "Protein X-017," exhibits several properties that defy conventional biological understanding:</p>
+        <ul>
+            <li>Anomalous Stability: Protein X-017 remains stable and active under conditions that denature normal proteins, such as extreme temperatures and pH levels.</li>
+            <li>Non-Natural Amino Acid Sequences: The protein contains sequences of amino acids that do not correspond to any known sequences in terrestrial biology.</li>
+            <li>Self-Replicating Mechanism: Unlike typical proteins, X-017 can replicate independently within a host, even without the presence of its originating virus, suggesting a quasi-living nature.</li>
+            <li>Immune System Interaction: Protein X-017 interacts with the host’s immune system in a manner that amplifies the symptoms of the underlying viral infection and induces neurological anomalies. This interaction involves binding to immune cells and altering their response patterns, leading to cytokine storms and neuroinflammation.</li>
+        </ul>
+        <p>Ongoing studies are focused on identifying the precise mechanisms of ABR-017, its potential origins, and effective treatment protocols. Collaborative efforts with external virology experts are being pursued to expedite findings. Research includes the analysis of the anomalous protein, its interaction with human physiology, and its potential origin. Recent experiments have demonstrated that Protein X-017 can induce symptoms in isolated immune cells, further confirming its role in the aberration.</p>
 
         <h1>END OF DOCUMENT</h1>
     </div>
