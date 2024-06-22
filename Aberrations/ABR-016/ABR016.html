@@ -14,7 +14,7 @@
             color: #D3D3D3;
         }
         .navbar {
-            background-color: #4B4B4B;
+            background-color: #1a1a1a;
             overflow: hidden;
         }
         .navbar a {
@@ -36,6 +36,32 @@
             background-color: #4B4B4B;
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
         }
         h1 {
             font-size: 22px;
@@ -65,19 +91,30 @@
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="homepage.html">Home</a>
-        <a href="ABRlist.html">Aberrations Index</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
+     <div class="navbar">
+        <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
+        <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
+        <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/containmentfacilities.html">Containment Facilities</a>
+        <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
+        <a href="https://hazudo.github.io/ARI/about.html">About</a>
+        <a href="https://hazudo.github.io/ARI/research.html">Research</a>
+        <a href="https://hazudo.github.io/ARI/contact.html">Contact</a>
     </div>
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-016 "The Parasitic Chamber"</h1>
-        <p><strong>Aberration Designation:</strong> ABR-016 "The Parasitic Chamber"</p>
-        <p><strong>Threat Level:</strong> Class IV: Critical</p>
-        <p><strong>Containment Level:</strong> Delta-3</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-016 "The Parasitic Chamber"</p>
+                <p><strong>Threat Level:</strong> 06</p>
+                <p><strong>Containment Division:</strong> Delta-2</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-016/1f5950bf-6248-428a-8ade-f888873854eb-gigapixel-standard%20v2-2x.jpeg" alt="Image of ABR-016">
+                <p>ABR-016</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-016, known as "The Parasitic Chamber," is an anomalous room measuring approximately 50 cubic meters. The exterior resembles a metallic membrane with organic characteristics. Inside, the chamber mimics a living space, with furniture that changes to reflect the psychological profile of any human entering it.</p>
@@ -95,7 +132,7 @@
         <h2>Behavioral Analysis</h2>
         <p>ABR-016 appears to respond to the psychological states of its occupants, adapting its environment to evoke fear and a sense of false security. The exact mechanisms by which it influences and drains its occupants remain unknown and are the subject of ongoing research.</p>
 
-        <h2>Appendices</h2>
+        <h2>Additional Information</h2>
         <p><strong>Background:</strong> ABR-016 was discovered in an abandoned underground bunker in ███████, Germany, following reports of a "haunted" room. ARI agents investigating the site encountered the chamber and secured it for transport. Historical records suggest the bunker was used for classified experiments during World War II, though the exact nature of these experiments remains unclear.</p>
         <p><strong>Incident Reports:</strong></p>
         <ul>
