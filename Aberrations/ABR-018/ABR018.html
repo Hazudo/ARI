@@ -37,6 +37,32 @@
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
+        }
         h1 {
             font-size: 22px;
             border-bottom: 1px solid #666;
@@ -60,38 +86,39 @@
             padding-left: 0;
         }
         li {
-            padding: 8px;
-            margin: 5px 0;
-        }
-        a {
-            color: #9c9c9c;
-            text-decoration: none;
-        }
-        a:hover {
-            color: #ffffff;
+            padding: 5px 0;
         }
     </style>
 </head>
 <body>
     <div class="navbar">
-        <a href="homepage.html">Home</a>
-        <a href="ABRlist.html">Aberration Index</a>
-        <a href="clearanceranklist.html">Clearance Rank List</a>
-        <a href="stafftitles.html">Staff Titles</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
+        <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
+        <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
+        <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/containmentfacilities.html">Containment Facilities</a>
+        <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
+        <a href="https://hazudo.github.io/ARI/about.html">About</a>
+        <a href="https://hazudo.github.io/ARI/research.html">Research</a>
+        <a href="https://hazudo.github.io/ARI/contact.html">Contact</a>
     </div>
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-018</h1>
-        <p><strong>Aberration Designation:</strong> ABR-018</p>
-        <p><strong>Special Title:</strong> Reflective Aberration</p>
-        <p><strong>Threat Level:</strong> Class IV: Critical</p>
-        <p><strong>Containment Level:</strong> Delta-3</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-018</p>
+                <p><strong>Special Title:</strong> Mirror of Malevolence</p>
+                <p><strong>Threat Level:</strong> 06 (High Threat)</p>
+                <p><strong>Containment Division:</strong> Gamma-2 (Unpredictable, Potential Danger)</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-018/ABR-018.jpg" alt="Image of ABR-018">
+                <p>Image of ABR-018</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
-        <p>ABR-018, known as Reflective Aberration, is an antique mirror measuring 2 meters in height and 1 meter in width, framed in ornate gold-leafed woodwork. The surface of ABR-018 appears to be normal glass; however, any individual who views their reflection in ABR-018 will experience an anomalous event.</p>
+        <p>ABR-018, known as the Mirror of Malevolence, is an antique mirror measuring 2 meters in height and 1 meter in width, framed in ornate gold-leafed woodwork. The surface of ABR-018 appears to be normal glass; however, any individual who views their reflection in ABR-018 will experience an anomalous event.</p>
         <p>Subjects who look into ABR-018 will see a reflection that initially appears normal but gradually begins to change. Within approximately 30 seconds, the reflection will start to diverge from the subject's actual appearance, often displaying exaggerated, idealized, or grotesque versions of the subject. These changes can range from slight alterations in facial features to complete transformations into other entities or landscapes.</p>
         <p>The anomalous effects of ABR-018 extend beyond visual changes. Subjects exposed to ABR-018's reflection report intense feelings of euphoria, dread, or a compulsion to continue looking into the mirror. Prolonged exposure can result in severe psychological distress, hallucinations, and, in some cases, permanent alteration of the subject's personality and behavior.</p>
 
@@ -106,25 +133,20 @@
         <p>ABR-018 does not exhibit active behavior or movement. Its anomalous properties are triggered by human interaction, specifically visual contact with its reflective surface. The variability in the mirror's effects on different individuals suggests a degree of responsiveness to the subject's psychological state or perception.</p>
         <p>Subjects' reflections in ABR-018 diverge in ways that can be idealized, grotesque, or entirely alien, indicating that the mirror's effects are influenced by the viewer's subconscious. This interaction suggests a complex and potentially hazardous influence on human cognition and perception.</p>
 
-        <h2>Appendices</h2>
-        <p><strong>Addendum ABR-018-1: Incident Report ABR-018-01</strong></p>
+        <h2>Additional information</h2>
+        <h3>Addendum ABR-018-1: Incident Report ABR-018-01</h3>
         <p>On ██/██/20██, Dr. █████ conducted an unauthorized experiment with ABR-018, resulting in a containment breach. Dr. █████ observed his reflection transform into a being of unknown origin, which subsequently attempted to breach the mirror's surface. Security personnel were able to recontain ABR-018, but Dr. █████ suffered irreversible psychological damage and is currently under intensive psychiatric care.</p>
         
-        <p><strong>Addendum ABR-018-2: Experiment Log ABR-018-A</strong></p>
-        <ul>
-            <li><strong>Subject:</strong> D-9341</li>
-            <li><strong>Procedure:</strong> Subject instructed to look into ABR-018 for 60 seconds.</li>
-            <li><strong>Result:</strong> Subject's reflection altered to show a younger, healthier version of themselves. Subject reported feelings of intense joy and attempted to touch the mirror, resulting in a mild electric shock. Subject removed from testing area with no long-term effects observed.</li>
-        </ul>
-        <ul>
-            <li><strong>Subject:</strong> D-1022</li>
-            <li><strong>Procedure:</strong> Subject instructed to look into ABR-018 for 120 seconds.</li>
-            <li><strong>Result:</strong> Subject's reflection transformed into a monstrous, disfigured version of themselves. Subject exhibited signs of extreme distress and attempted to flee the testing area. Subject later reported seeing the altered reflection in all reflective surfaces, leading to a state of acute paranoia.</li>
-        </ul>
-
+        <h3>Addendum ABR-018-2: Experiment Log ABR-018-A</h3>
+        <p><strong>Subject:</strong> D-9341</p>
+        <p><strong>Procedure:</strong> Subject instructed to look into ABR-018 for 60 seconds.</p>
+        <p><strong>Result:</strong> Subject's reflection altered to show a younger, healthier version of themselves. Subject reported feelings of intense joy and attempted to touch the mirror, resulting in a mild electric shock. Subject removed from testing area with no long-term effects observed.</p>
+        
+        <p><strong>Subject:</strong> D-1022</p>
+        <p><strong>Procedure:</strong> Subject instructed to look into ABR-018 for 120 seconds.</p>
+        <p><strong>Result:</strong> Subject's reflection transformed into a monstrous, disfigured version of themselves. Subject exhibited signs of extreme distress and attempted to flee the testing area. Subject later reported seeing the altered reflection in all reflective surfaces, leading to a state of acute paranoia.</p>
+        
         <p><strong>Conclusion:</strong> ABR-018 exhibits unpredictable and highly variable effects on individuals. Further testing is required to determine the full extent of ABR-018's anomalous properties and the potential risks involved.</p>
-
-        <p><strong>Researcher's Note:</strong> ABR-018 presents a unique and challenging anomaly. The psychological impact of exposure necessitates rigorous containment protocols and careful handling. Continued study may reveal insights into the nature of perception and the mind's relationship with reflective surfaces.</p>
 
         <h1>END OF DOCUMENT</h1>
     </div>
