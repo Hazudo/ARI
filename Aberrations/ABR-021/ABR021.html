@@ -37,6 +37,32 @@
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-section div {
+            flex: 1;
+        }
+        .image-container {
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #3D3D3D;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .image-container p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #D3D3D3;
+        }
         h1 {
             font-size: 22px;
             border-bottom: 1px solid #666;
@@ -65,10 +91,11 @@
     </style>
 </head>
 <body>
-    <div class="navbar">
+     <div class="navbar">
         <a href="https://hazudo.github.io/ARI/homepage.html">Home</a>
         <a href="https://hazudo.github.io/ARI/ABRlist.html">Aberration Index</a>
         <a href="https://hazudo.github.io/ARI/clearanceranklist.html">Clearance Rank List</a>
+        <a href="https://hazudo.github.io/ARI/containmentfacilities.html">Containment Facilities</a>
         <a href="https://hazudo.github.io/ARI/stafftitles.html">Staff Titles</a>
         <a href="https://hazudo.github.io/ARI/about.html">About</a>
         <a href="https://hazudo.github.io/ARI/research.html">Research</a>
@@ -77,10 +104,17 @@
 
     <div class="container">
         <h1>ABERRATION DOCUMENT: ABR-021</h1>
-        <p><strong>Aberration Designation:</strong> ABR-021</p>
-        <p><strong>Codename:</strong> Infinite Vase</p>
-        <p><strong>Threat Level:</strong> Class II: Contained</p>
-        <p><strong>Containment Level:</strong> Beta-2</p>
+        <div class="header-section">
+            <div>
+                <p><strong>Aberration Designation:</strong> ABR-021</p>
+                <p><strong>Threat Level:</strong> 05 - Significant threat</p>
+                <p><strong>Containment Division:</strong> Gamma-3</p>
+            </div>
+            <div class="image-container">
+                <img src="https://raw.githubusercontent.com/Hazudo/ARI/main/Aberrations/ABR-021/1332b07d-c1f1-4923-8e70-870502dbf260-gigapixel-standard%20v2-2x.jpeg" alt="Image of ABR-021">
+                <p>ABR-021</p>
+            </div>
+        </div>
 
         <h2>Description</h2>
         <p>ABR-021, codenamed "Infinite Vase," is a ceramic vase measuring approximately 30 cm in height and 15 cm in diameter. Its exterior is decorated with intricate, abstract patterns that appear to shift and change when viewed from different angles, though no adverse cognitive effects have been reported.</p>
@@ -99,12 +133,13 @@
         <h2>Appendices</h2>
         <p><strong>Background:</strong> The Nephological Entity was discovered following unusual meteorological events in [REDACTED]. Initial containment involved managing an intense thunderstorm, believed to be a manifestation of the entity's distress. Over time, ARI's containment measures have significantly reduced its distress levels.</p>
         <p><strong>Incident Report #001:</strong> During an initial communication attempt, Doctor ████ and Researcher ████ were injured by an electrical discharge caused by the entity's distress. Both sustained burns and required medical treatment. This incident led to the integration of a Faraday cage within the containment cell and revised communication strategies to prevent future distress.</p>
-        <p><strong>Containment Protocol Revision:</strong>
+        <p><strong>Containment Protocol Revision:</strong></p>
         <ul>
-            <li><strong>Faraday Cage:</strong> Added to prevent electrical discharges.</li>
-            <li><strong>Emotional Intelligence Training:</strong> Required for all personnel interacting with the entity to reduce potential distress triggers.</li>
-            <li><strong>Emergency Evacuation Directive:</strong> Established for swift evacuation in case of increased distress signals.</li>
+            <li>Faraday Cage: Added to prevent electrical discharges.</li>
+            <li>Emotional Intelligence Training: Required for all personnel interacting with the entity to reduce potential distress triggers.</li>
+            <li>Emergency Evacuation Directive: Established for swift evacuation in case of increased distress signals.</li>
         </ul>
+
         <h1>END OF DOCUMENT</h1>
     </div>
 </body>
